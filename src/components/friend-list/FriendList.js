@@ -3,7 +3,7 @@ import s from "./Friend-List.module.css";
 
 function FriendList({ friends}) {
   return (
-  <section class="statistics">
+  <section>
       <ul className={s.List}>
           {friends.map(friend => (
             <li className={s.Item} key={friend.id}>
