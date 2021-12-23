@@ -1,14 +1,16 @@
 import PropTypes from 'prop-types';
+import s from "./Statistic.module.css";
+import getRandomColor from "./random-color";
 
 function Statistics({ title, stats }) {
   return (
-  <section class="statistics">
-    {title && <h2>{title}</h2>}
-        <ul class="stat-list">
+  <section className={s.Statistics}>
+    {title && <h2 className={s.Title}>{title}</h2>}
+        <ul className={s.List}>
           {stats.map(item => (
-          <li key={item.id}>
-            <span class="label">{item.label}</span>
-            <span class="percentage">{item.percentage}%</span>
+          <li className={s.Item} key={item.id} style={{ backgroundColor: getRandomColor() }}>
+            <span className={s.Label}>{item.label}</span>
+            <span className={s.Percentage}>{item.percentage}%</span>
           </li>
           ))}
         </ul>

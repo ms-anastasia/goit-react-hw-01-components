@@ -1,0 +1,43 @@
+.Statistics {
+  background-color: #fff;
+  margin-bottom: 50px;
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000;
+  overflow: hidden;
+}
+.Title {
+  color: #808080;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.List {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+}
+.Item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Label {
+  font-size: 12px;
+}
+.Percentage {
+  font-size: 16px;
+}

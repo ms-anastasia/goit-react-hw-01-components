@@ -1,0 +1,36 @@
+.List {
+  width: 425px;
+  margin: auto;
+  margin-bottom: 50px;
+  border: solid 1px rgb(211, 221, 221);
+  box-shadow: 0 0 5px #000;
+}
+
+.Item {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+.statusOnline,
+.statusOffline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 0 15px 0 15px;
+}
+
+.statusOffline {
+  background-color: red;
+}
+.Avatar {
+  margin-right: 20px;
+}
+.Name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+}
